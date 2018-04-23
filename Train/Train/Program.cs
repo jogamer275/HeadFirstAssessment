@@ -10,7 +10,11 @@ namespace Train
     {
         static void Main(string[] args)
         {
-
+            Reiziger reiziger = new Reiziger();
+            
+                Console.WriteLine(reiziger.VerkrijgBestemming());
+                Console.ReadLine();
+            
             //Test
         }
     }
